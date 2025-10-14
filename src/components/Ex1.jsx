@@ -4,9 +4,9 @@
 
 export default function Ex1() {
   return (
-    <div className="my-8">
+    <div className="flex flex-col items-center my-8">
         <h1 className="text-2xl font-bold mb-4">Ex1 - Botão Estilizado</h1>
-      {/* Resolva aqui */}
+        <button className=" bg-blue-500 text-white p-4 rounded-xl hover:bg-blue-800 ">Botão exercicio 1</button>
     </div>
   );
 }
