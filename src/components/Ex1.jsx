@@ -4,9 +4,10 @@
 
 export default function Ex1() {
   return (
-    <div className="flex flex-col items-center my-8">
+    <div className="my-8">
         <h1 className="text-2xl font-bold mb-4">Ex1 - Botão Estilizado</h1>
-        <button className=" bg-blue-500 text-white p-4 rounded-xl hover:bg-blue-800 ">Botão exercicio 1</button>
+        <div className="flex flex-row justify-center"><button className=" bg-blue-500 text-white p-4 rounded-xl hover:bg-blue-900">Botão exercicio 1</button></div>
+        
     </div>
   );
 }
